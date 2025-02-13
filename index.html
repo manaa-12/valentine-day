@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <video autoplay muted loop >
+            <source src="asset/Heart Red Background _ Valentines Background.mp4">
+        </video>
+        <div class="content">
+            <div class="gambar" >
+                <img id="gambar" src="asset/bubu-dudu-sseeyall.gif" alt="">
+            </div>
+            <div class="input" id="inputContainer">
+                <h1 id="kata">Masukkan Nama Kamu</h1>
+                <div class="inputt">
+                    <input type="text" id="nameInput" placeholder="Masukkan nama...">
+                </div>
+                <div class="buttonn">
+                    <button id="nextbutton" onclick="handleNext()">Next</button>
+                    <button id="nextbutton2" onclick="nextbutton()">Next</button>
+                </div>
+            </div>
+            
+            <div class="button-container " id="buttonContainer">
+                 <button id="yesButton"  onclick="buttonyes()">Yes</button>
+                <button id="noButton" onmousemove="noButton()" >No</button>
+            </div>
+        </div>
+        <audio autoplay controls loop src="asset/beabadoobee - Glue Song (Official Music Video) (1).mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
