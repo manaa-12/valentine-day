@@ -22,7 +22,7 @@ function changeTextSmoothly(newText) {
 
 function handleNext() {
     const name = nameInput.value.trim();
-    if (name.toLowerCase() === 'nisa' || name.toLowerCase() === 'refitha' ) { 
+    if (name.toLowerCase() === 'nisa' || name.toLowerCase() === 'dira' ) { 
         changeTextSmoothly('Selamat hari valentine ' + name );
         gambar.src = 'asset/happy-valentines-day-happy-valentines.gif';
         nameInput.style.display = 'none';
@@ -94,3 +94,4 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     document.head.appendChild(style);
 });
+
